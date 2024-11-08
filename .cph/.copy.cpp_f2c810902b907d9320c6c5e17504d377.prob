@@ -1,0 +1,1 @@
+{"name":"Local: copy","url":"e:\\Code\\C++\\Competitive\\copy.cpp","tests":[{"id":1730838310503,"input":"0.01\n0.02\n-1\n","output":"0.0001\n0.0002\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Code\\C++\\Competitive\\copy.cpp","group":"local","local":true}
