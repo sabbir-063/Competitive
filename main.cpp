@@ -133,18 +133,11 @@ int dec2bin(int n)
 
 void solve(int tc, int t)
 {
-    char x, y;
-    cin >> x >> y;
-    int a = x - 32, b = y - 32;
-    for (int i = 1; i <= 94; i++)
-    {
-        if (a % i == b % i)
-        {
-            int xx = ceil(1.0 * 94 / i);
-            cout << i << " " << xx << endl;
-        }
-    }
-    cout << endl;
+    int n; cin>>n;
+    if(n&1)
+        cout << "Kosuke"<<endl;
+    else
+        cout << "Sakurako"<<endl;
 }
 
 signed main()
